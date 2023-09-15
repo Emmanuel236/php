@@ -1,0 +1,138 @@
+body {
+	font-family: Arial, sans-serif; 
+	Line-height: 1.6;
+	background-color: #FF0000; 
+	padding: 20px; 
+	color: #000000;
+}
+
+h1, h2 {
+color: #000000;
+}
+
+ul, ol {
+padding-left: 20px;
+}
+
+a {
+color: #000000;
+text-decoration: none;
+}
+
+a:hover {
+	color: #0056b3;
+	text-decoration: underline;
+}
+
+p {
+	margin-bottom: 10px;
+	color: #000000;
+}
+
+/* Banner */
+banner {
+background-color: #000000; 
+padding: 20px; 
+text-align: center; 
+margin-bottom: 30px;
+}
+
+.banner-title {
+color: #000000;
+font-size: 2em; 
+margin: 0;
+}
+
+/Estilos de menú y submenú/
+.menu {
+	background-color: #000000;
+	overflow: hidden;
+}
+
+.menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu li {
+	float: left;
+}
+
+.menu li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.menu li a:hover, .menu li:hover > a {
+	background-color: #0080ff;
+}
+
+.menu li:hover ul {
+	display: block;
+}
+
+.submenu {
+	display: none;
+	position: absolute;
+	background-color: #444;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	min-width: 160px;
+}
+
+.submenu li {
+	float: none;
+	border-bottom: 1px solid #555;
+}
+
+.submenu li:last-child {
+	border-bottom: none;
+}
+
+.submenu li a: hover {
+	background-color: #0080ff;
+}
+
+/* Estilos para las operaciones de secuenciales */
+
+.container {
+	max-width: 400px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 30px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Formulario de notas */
+.nota-form {
+	margin-bottom: 20px;
+} 
+
+.nota-form input[type="number"] {
+	width: 100%;
+	padding: 5px;
+	margin: 5 px 0 10px 0;
+}
+
+.submit-button {
+	background-color: #0080ff;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+	background-color: #0056b3;
+}
+
+/* Estilo para el resultado del promedio */
+.resultado {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #444;
+}
